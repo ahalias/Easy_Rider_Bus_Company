@@ -1,0 +1,10 @@
+custom_name: "BeautifulSoup: working with HTML"
+content:
+- Theory
+- Included parser
+- Health issues
+- Get the paragraph
+- Get the hyperlink
+- Get the subtitles
+- Peculiarities
+- Tags

@@ -1,0 +1,10 @@
+import requests
+
+from bs4 import BeautifulSoup
+
+num = int(input())
+url = input()
+r = requests.get(url)
+soup = BeautifulSoup(r.content, 'html.parser')
+subtitle = soup.find_all('h2')
+print(subtitle[num].text)
